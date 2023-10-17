@@ -33,6 +33,41 @@ div{
     height: 350px;
     position: relative;
 }
+html{
+    background-color: gray;
+}
+.card-area{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    width: 350px;
+    min-height: 550px;
+    border: 4px solid silver;
+    box-shadow: 0 8px 16px 0 rgb(0,0,0,0.2);
+    margin: 16px;
+    background-color: #34425a;
+    border-radius: 8px;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid silver;
+    width: 200px;
+    padding: 2px;
+    margin-top: 10px;
+    margin-left: 67px;
+    border-radius: 8px;
+    background-color: white;
+}
+div{
+    color:black;
+}
+.picture-section{
+    height: 350px;
+    position: relative;
+}
 .picture{
     width: 350px;
     height: 350px;
